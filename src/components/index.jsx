@@ -1,13 +1,9 @@
-import ContentComponent from "./content";
-import FooterComponent from "./footer";
-import NavbarComponent from "./navbar";
+import ValidationComponent from "./validation";
 
 const Components = () => {
   return (
     <div>
-      <NavbarComponent />
-      <ContentComponent />
-      <FooterComponent />
+      <ValidationComponent />
     </div>
   );
 };
