@@ -1,9 +1,11 @@
-import ValidationComponent from "./validation";
+import LifeCycleComponent from "./lifecycle";
+import NavbarComponent from "./navbar";
 
 const Components = () => {
   return (
     <div>
-      <ValidationComponent />
+      <NavbarComponent />
+      <LifeCycleComponent />
     </div>
   );
 };
